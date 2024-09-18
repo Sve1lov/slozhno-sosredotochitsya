@@ -5,8 +5,14 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-color: #FFF1F7;
+  --background-image: url('../images/cover-image-light.png');
+  --back-color: #353430;
+  --title-color: #FFC2E6;
+  --background-text: #FF8DCB;
+  --list-item-color: var(--back-color);
+  --header-text-color: var(--back-color);
+}
+.page.theme_light .header_rec {
+  display: none;
 }
