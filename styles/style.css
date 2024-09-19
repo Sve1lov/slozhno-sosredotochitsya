@@ -268,9 +268,9 @@
     gap: 20px 19px;
 }
 
-.pictures_title {
+.section_title {
     color: var(--header-text-color);
-    font-weight: 700;
+    font-size: 18px;
     line-height: 23.4px;
     text-align: left;
     grid-column: 1 / -1;
