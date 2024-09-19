@@ -326,14 +326,11 @@
         grid-column: 3;
         grid-row: 2;
         margin-top: -76px;
+        justify-self: end;
     }
 
     .header__theme-menu-list {
         flex-direction: column;
-    }
-
-    .header__theme-menu {
-        justify-self: end;
     }
 
     .medium_section_list {
@@ -422,10 +419,6 @@
 
     .medium_section_title {
         width: auto;
-    }
-
-    .two_column_list {
-        grid-column: 1;
     }
 
     .main_title {
