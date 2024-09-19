@@ -355,12 +355,15 @@
     .page {
         row-gap: 40px;
     }
-    .two_column_title{
-      margin-bottom: 20px;
+
+    .two_column_title {
+        margin-bottom: 20px;
     }
+
     .header {
         padding: 10px;
     }
+
     .two_column {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
@@ -406,6 +409,7 @@
     .footer_title {
         font-size: 116px;
         grid-column: 1;
+        margin-left: 5px;
     }
 
     .header_text {
@@ -440,7 +444,6 @@
 
     .footer {
         padding: 10px 10px 10px;
-        width: 100vw;
         grid-template-columns: 25px 1fr 25px;
     }
 }
