@@ -245,16 +245,12 @@
 }
 
 .accent_word {
-    text-decoration: none;
+    text-decoration: var(--text-decoration);
     text-shadow: 1px 1px var(--background-text);
 }
 
 .accent_word:focus {
     outline: none;
-}
-
-.accent_word:hover {
-    text-decoration: underline;
 }
 
 .accent_word:focus-visible {
@@ -369,11 +365,7 @@
         grid-template-rows: repeat(3, auto);
         padding: 0 10px;
     }
-
-    .accent_word {
-        text-decoration: underline;
-    }
-
+    
     .two_column_list {
         grid-column: 1;
         grid-template-columns: 1fr;

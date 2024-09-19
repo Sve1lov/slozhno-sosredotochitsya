@@ -27,3 +27,13 @@
           var(--background-image)
   }
 }
+@media(width <=375px) {
+    .page.theme_dark {
+        --text-decoration: underline;
+    }
+  }
+@media(width <=375px) and (prefers-color-scheme: dark) {
+  .page.theme_auto {
+      --text-decoration: underline;
+  }
+}
