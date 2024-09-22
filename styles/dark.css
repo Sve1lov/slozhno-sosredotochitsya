@@ -5,35 +5,40 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
+    /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
 .header_rec {
     display: block;
 }
+
 @media(width <=768px) {
     .page.theme_dark {
         background-image:
             linear-gradient(rgba(0, 0, 40, 0.5), rgba(0, 0, 40, 0.5)),
             var(--background-image)
     }
-  }
-@media(width <=768px) and (prefers-color-scheme: dark) {
-  .page.theme_auto {
-      background-image:
-          linear-gradient(rgba(0, 0, 40, 0.5), rgba(0, 0, 40, 0.5)),
-          var(--background-image)
-  }
 }
+
+@media(width <=768px) and (prefers-color-scheme: dark) {
+    .page.theme_auto {
+        background-image:
+            linear-gradient(rgba(0, 0, 40, 0.5), rgba(0, 0, 40, 0.5)),
+            var(--background-image)
+    }
+}
+
 @media(width <=376px) {
     .page.theme_dark {
         --text-decoration: underline;
     }
-  }
+}
+
 @media(width <=376px) and (prefers-color-scheme: dark) {
-  .page.theme_auto {
-      --text-decoration: underline;
-  }
+    .page.theme_auto {
+        --text-decoration: underline;
+    }
 }
